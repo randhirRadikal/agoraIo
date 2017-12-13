@@ -2,7 +2,7 @@ var http = require('http');
 var express = require('express');
 var DynamicKey5 = require('./lib/DynamicKey5');
 
-var PORT = process.env.PORT || 8080;
+var PORT = process.env.PORT || 2212;
 // Get the Vendor and Sign Key
 var APP_ID = process.env.APP_ID || '61f569b4c7f64febbe279d8fc1681b44';
 //var APP_ID = process.env.APP_ID || '38967ad7eeb34a65841a8ed8ac515c2a';
